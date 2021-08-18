@@ -1,0 +1,20 @@
+span.hg {
+  display: block;
+}
+
+span.vg {
+  font-size: 80%;
+  color: #c0c0c0;
+}
+
+span.se1 > * {
+  display: block;
+}
+
+span.se2 > * {
+  display: block;
+}
+
+span.t_ルビ仮名 {
+  font-size: 80%;
+}

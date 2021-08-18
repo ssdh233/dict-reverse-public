@@ -1,0 +1,35 @@
+.gramb {
+  display: block;
+}
+
+/* 词性, 比如noun, adjective*/
+.ps {
+  margin-right: 5px;
+}
+
+.semb {
+  display: block;
+  margin-bottom: 1em;
+}
+
+.ind {
+  color: #c0c0c0;
+}
+
+.fld {
+  color: #c0c0c0;
+  font-style: italic;
+}
+
+.ty_pinyin {
+  display: none;
+}
+
+.exg {
+  display: block;
+  margin-left: 20px;
+}
+
+.exg::before {
+  content: "▶";
+}

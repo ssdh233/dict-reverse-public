@@ -1,0 +1,16 @@
+.se1, .se2 {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.msDict.t_subsense {
+  display: block;
+}
+
+.msDict > .eg > .ex {
+  font-style: italic;
+}
+
+.etym {
+  display: none;
+}
