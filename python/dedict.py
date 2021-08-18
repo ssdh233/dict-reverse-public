@@ -31,7 +31,7 @@ def gen_entry():
 
 count = 0
 result = []
-with open('../_share/' + DICT_KEY + '_source.dict.json', 'w') as outfile:
+with open('../_share/' + DICT_KEY + '_source.dict.json', 'w+') as outfile:
     for word, definition in gen_entry():
         result.append({ "word": word, "definition": definition})
         count += 1

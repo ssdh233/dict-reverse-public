@@ -1,3 +1,4 @@
-_share
-node_modules
+_share/*
+!_share/description
+
 __pycache__

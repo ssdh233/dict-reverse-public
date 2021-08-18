@@ -33,9 +33,9 @@ for word in words:
     count += 1
     if count % 1000 == 0:
         print("Finished " + str(count) + " words...")
-    definationHtml = lxml.html.fromstring(word["definition"])
-    alterText = jaconv.kata2hira(definationHtml.cssselect("span.hw")[0].text_content())
-    dictionary[alterText + ": " + word["word"]] = "@@@link=" + word["word"]
+    # definationHtml = lxml.html.fromstring(word["definition"])
+    # alterText = jaconv.kata2hira(definationHtml.cssselect("span.hw")[0].text_content())
+    # dictionary[alterText + ": " + word["word"]] = "@@@link=" + word["word"]
     if word["word"] in dictionary:
         dictionary[word["word"]] += word["definition"]
     else:
